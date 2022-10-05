@@ -1,0 +1,29 @@
+body > button {
+    scale: 40%;
+    font-family: product sans;
+    font-size: medium;
+    margin: 10px;
+}
+
+.main {
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.main_heading {
+    font-family: product sans;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#heading {
+    margin: 40px;
+    padding: 15px;
+    border: solid grey;
+}
+
+#loc {
+    margin-top: 20px;
+}
