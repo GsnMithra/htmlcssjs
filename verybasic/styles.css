@@ -1,0 +1,15 @@
+
+/* select by tag */
+h2 {
+    color: black;
+}
+
+/* select by id */
+#foo {
+    color: blue;
+}
+
+/* select by class */
+.baz {
+    color: blue;
+}

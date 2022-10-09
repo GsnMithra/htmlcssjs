@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Descendant</title>
+        <style>
+            /* descendant parent > child */
+            ul > li {
+                color: blue;
+            }
+
+            li > a {
+                color: black;
+            }
+            /* attribute tag["foo.com"] */
+
+            a[href="www.gsnmithra.blogspot.com"] {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>first item</li>
+            <li>second item</li>
+            <ul>
+                <li>unordered first</li>
+                <li>websites</li>
+                <ul>
+                    <li><a href="www.google.com">google</a></li>
+                    <li><a href="www.facebook.com">facebook</a></li>
+                    <li><a href="www.gsnmithra.blogspot.com">mithra</a></li>
+                </ul>
+            </ul>
+        </ol>
+    </body>
+</html>
