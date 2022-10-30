@@ -1,0 +1,35 @@
+.content {
+  font-family: Work Sans;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  background-color: #a8dadc;
+}
+
+#heading {
+  margin-bottom: 4rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 20px;
+  font-size: 3.5rem;
+  background-color: #457b9d;
+  font-weight: 400;
+}
+
+#sel2 {
+  background-color: #f1faee;
+}
+
+.form-floating {
+  margin: 1rem;
+}
+
+.content {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 4rem;
+}
+
+
