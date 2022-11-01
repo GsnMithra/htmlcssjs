@@ -1,0 +1,69 @@
+.content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 5rem;
+}
+
+#input {
+    font-family: 'Trispace';
+    font-size: larger;
+    padding: 0.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#tex2 {
+    font-family: 'Trispace';
+    font-weight: 350;
+    border: 3px solid black;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.generated {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#submit {
+    height: 5rem;
+    width: 12rem;
+    font-size: x-large;
+    font-family: 'Trispace';
+}
+
+#ip2 {
+    font-family: 'Trispace';
+    font-size: larger;
+    margin-right: 5.8rem;
+}
+
+#text {
+    font-family: 'Trispace';
+    font-weight: 350;
+    font-size: x-large;
+}
+
+#cols {
+    margin: 2rem;
+}
+
+#cboxes {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 7px;
+    margin-right: 10px;
+}
+
+#heading {
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-size: 3.65rem;
+    font-weight: 350;
+    font-family: 'Trispace';
+}
