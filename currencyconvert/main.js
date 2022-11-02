@@ -20,6 +20,6 @@ function getAnswer () {
     
     fetch("https://api.apilayer.com/exchangerates_data/convert?to=" + toValue +"&" + "from=" + fromValue + "&amount=" + inputValue, requestOptions)
         .then(response => response.text())
-        .then(result => putValue(result, toValue))
+        .then(result => putValue(result))
         .catch(error => console.log('error', error));
 }
